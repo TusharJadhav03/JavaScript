@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider with buttons (SetAttributes)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button type="button" onclick="openImg1()">1</button>
+    <button type="button" onclick="openImg2()">2</button>
+    <button type="button" onclick="openImg3()">3</button>
+    <button type="button" onclick="openImg4()">4</button>
+
+    <div class="main">
+        <p id="rangeVal">350</p>
+        <input type="range" id="ran1" min="50" max="700" oninput="changeVal()"><br>
+        <img src="img1.jpg" width="50%" id="img1">  
+    </div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
