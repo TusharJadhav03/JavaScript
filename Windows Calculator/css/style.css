@@ -1,0 +1,32 @@
+.main{
+    height: 620px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: lightgrey;
+}
+.top{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    
+}
+.bot{
+    height: 420px;
+    width: 400px;
+    text-align: center;
+}
+.btn{
+    height: 65px;
+    width: 95px;
+    font-size: 30px;
+}
+h1{
+    padding-top: 10px;
+}
+input[type="text"]{
+    height: 50px;
+    width: 380px;
+    margin-top: 70px;
+    font-size: 20px;
+}
