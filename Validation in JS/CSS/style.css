@@ -1,0 +1,24 @@
+.main{
+    height: auto;
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+    background-color: cyan;
+    text-align: center;
+    border-radius: 20px;
+}
+.input-mod{
+    height: 40px;
+    width: 40%;
+    border-radius: 7px;
+    border: none;
+}
+.btn1{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+}
