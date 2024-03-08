@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Room Light Animation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="left">
+                <img src="darkroom.png" width="70%" id="room" alt="">
+            </div>
+            <div class="mid">
+                <img src="darkbathroom.png" width="70%" id="bathRoom"  alt="">
+            </div>
+            <div class="right">
+                <img src="darkbedroom.png" width="70%" id="bedRoom" alt="">
+            </div>
+        </div>
+        <div class="bot">
+            <img src="darkhall.png" width="70%" id="hall" alt="" >
+        </div>
+
+    </div>
+    <div class="buttons">
+       <span>Room <br>
+           <button type="button" class="btn"><img src="off_btn.jpg" onclick="roomLight()" height="50px" width="100px" alt="" id="roomBtn"></button>
+       </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+       <span>BathRoom <br>
+           <button type="button" class="btn"><img src="off_btn.jpg" onclick="bathroomLight()" height="50px" width="100px" alt="" id="bathroomBtn"></button>
+       </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span>BedRoom <br>
+           <button type="button" class="btn"><img src="off_btn.jpg" onclick="bedroomLight()" height="50px" width="100px" alt="" id="bedroomBtn"></button>
+       </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span>Hall <br>
+           <button type="button" class="btn"><img src="off_btn.jpg" onclick="hallLight()" height="50px" width="100px" alt="" id="hallBtn"></button>
+       </span>
+        
+        
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
